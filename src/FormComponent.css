@@ -1,0 +1,126 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #E3FDFD, #FFE6FA);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  color: #34495E;
+  margin-bottom: 0.5rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #AAB7C4;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.submit-btn {
+  background: #5DADE2;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  max-width: 400px;
+}
+
+.submit-btn:hover {
+  background: #3498db;
+  box-shadow: 0 3px 10px rgba(52, 152, 219, 0.3);
+  transform: scale(1.02);
+}
+
+.success-message {
+  text-align: center;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.success-message h3 {
+  margin-bottom: 15px;
+  color: #2ECC71;
+}
+
+.success-message p {
+  margin: 8px 0;
+  color: #34495E;
+}
+
+.back-btn {
+  background: #5DADE2;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.back-btn:hover {
+  background: #3498db;
+  box-shadow: 0 3px 10px rgba(52, 152, 219, 0.3);
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .form-container {
+    padding: 20px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+}
